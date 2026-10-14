@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Placement Preparation Platform</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar"><div class="brand"><span class="logo">SP</span><div><strong>SmartPrep</strong><small>Placement Preparation Platform</small></div></div><span class="tag">SDG 4 · Quality Education</span></header>
+<main class="container">
+<section class="hero"><div><p class="eyebrow">YOUR PLACEMENT JOURNEY</p><h1>Prepare with purpose.</h1><p class="lead">Learn a topic, practise a skill, and track your progress — one step at a time.</p></div><div class="hero-stat"><span id="percent">0%</span><small>overall completion</small><div class="progress"><i id="overallBar"></i></div></div></section>
+<section class="stats"><article><small>Modules completed</small><strong id="completedCount">0 / 4</strong></article><article><small>Quiz average</small><strong id="avgScore">—</strong></article><article><small>Practice points</small><strong id="points">0</strong></article></section>
+<section class="section-head"><div><p class="eyebrow">LEARNING PATH</p><h2>Pick up where you left off</h2></div><button class="secondary" id="resetBtn">Reset progress</button></section>
+<section class="modules" id="modules"></section>
+<section class="quiz-panel" id="quizPanel"><div><p class="eyebrow">QUICK PRACTICE</p><h2 id="quizTitle">Test your basics</h2><p id="quizQuestion">Choose a module above to begin a quiz.</p></div><div id="answers" class="answers"></div><p id="feedback" aria-live="polite"></p></section>
+<section class="notice"><strong>Prototype note:</strong> This demo saves progress in this browser only. It has no login, server, or college database connection.</section>
+<footer>SmartPrep • Student project prototype</footer>
+</main><script src="script.js"></script></body></html>
